@@ -1,2 +1,1 @@
-# backend
-API Rest para postulacion a mundo
+Incluir instrucciones de como clonar hasta hacer correr esto
