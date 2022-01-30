@@ -39,7 +39,7 @@ Route::get('ciudades/provincia/{id}', [CiudadController::class, 'ciudadesDeProvi
 Route::get('calles', [CalleController::class, 'indice']);
 Route::get('calles/{id}', [CalleController::class, 'mostrar']);
 Route::post('calles', [CalleController::class, 'guardar']);
-Route::put('calless/{id}', [CalleController::class, 'actualizar']);
+Route::put('calles/{id}', [CalleController::class, 'actualizarCalles']);
 Route::get('calle/datos', [CalleController::class, 'datosTodasLasCalles']);
 Route::get('calles/datos/{id}', [CalleController::class, 'datosCalle']);
 Route::delete('calle/{id}', [CalleController::class, 'deleteCalle']);
