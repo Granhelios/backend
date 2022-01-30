@@ -24,9 +24,13 @@ class CalleController extends Controller
         return Calles::create($peticion->all());
     }
 
-    public function actualizar(Request $request, $id){
-        $cashe = Calles::findOrFail($id);
-        $cashe->update($request->all());
+    public function actualizar($id, Request $request){
+        try{
+            $cashe = Calles::where('ca_id', '=', $id)->get();
+            $cashe->update($request->all());
+        }catch(\Exception $e){
+            return 'Calle no editada';
+        }
     }
 
     public function datosCalle($id){
