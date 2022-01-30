@@ -24,13 +24,11 @@ class CalleController extends Controller
         return Calles::create($peticion->all());
     }
 
-    public function actualizarCalles(Request $peticion, $id){
-        try{
-        $calles = Calles::where('ca_id', '=', $id)->first();
-        $calles->update($peticion->all());
-    }catch(\Exception $e){
-        return '405';
-    }
+    public function actualizar(Request $peticion, $id){
+        
+            $calles = Calles::where('ca_id', '=', $id);
+            $calles->update($peticion->all());
+        
     }
 
     public function datosCalle($id){
