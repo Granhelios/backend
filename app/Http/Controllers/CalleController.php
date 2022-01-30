@@ -28,6 +28,8 @@ class CalleController extends Controller
         
             $calles = Calles::where('ca_id', '=', $id);
             $calles->update($peticion->all());
+
+            return 201;
         
     }
 
