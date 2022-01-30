@@ -9,4 +9,4 @@ Instrucciones de Instalacion:
 7. Ejecutar en la terminal "php artisan migrate:fresh"
 8. Ejecutar en la terminal "php artisan db:seed"
 9. Escribir en la terminal de texto "php artisan serve" sin las comillas
-10. Asegurarse que la API quede montada en la direccion "http://backend.test"sin las comillas
+10. Asegurarse que la API quede montada en la direccion "http://backend.test" sin las comillas
