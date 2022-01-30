@@ -7,6 +7,7 @@ use App\Models\Calles;
 use App\Models\Regiones;
 use App\Models\Provincias;
 use App\Models\Ciudades;
+use Exception;
 
 class CalleController extends Controller
 {
@@ -70,6 +71,15 @@ class CalleController extends Controller
         
         return $array;
 
+    }
+
+    public function deleteCalle($id){
+        try{
+            Calles::where('ca_id', '=', $id)->delete();
+            return 'Calle Borrada';
+        }catch(\Exception $e){
+            return 'Calle no borrada';
+        }
     }
 
 

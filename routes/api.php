@@ -22,7 +22,7 @@ use App\Http\Controllers\CalleController;
 |
 */
 
-//inicio de todo el Route Regiones
+//inicio de todo el Route 
 
 
 Route::get('regiones', [RegionController::class, 'indice']);
@@ -42,3 +42,4 @@ Route::post('calles', [CalleController::class, 'guardar']);
 Route::put('calles/{id}', [CalleController::class, 'actualizar']);
 Route::get('calle/datos', [CalleController::class, 'datosTodasLasCalles']);
 Route::get('calles/datos/{id}', [CalleController::class, 'datosCalle']);
+Route::delete('calle/{id}', [CalleController::class, 'deleteCalle']);

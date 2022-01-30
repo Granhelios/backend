@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Provincias extends Model
 {
     use HasFactory;
+    protected $fillable= ["pr_nombre", "re_id"];
+    public $timestamps = false;
 }

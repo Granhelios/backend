@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Regiones extends Model
 {
     use HasFactory;
+    protected $fillable= ["re_nombre"];
+    public $timestamps = false;
 }
