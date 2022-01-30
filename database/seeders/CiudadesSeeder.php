@@ -69,6 +69,7 @@ class CiudadesSeeder extends Seeder
         	['Punta Arenas', 53],
             ['Z-1', 54],
             ['Z-2', 55],
+            ['Z-3', 56],
 
         ];
 
