@@ -29,7 +29,7 @@ class CalleController extends Controller
         $calles = Calles::where('ca_id', '=', $id)->first();
         $calles->update($peticion->all());
     }catch(\Exception $e){
-        return 'Calle no actualizada';
+        return '405';
     }
     }
 
