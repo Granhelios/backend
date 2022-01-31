@@ -8,5 +8,5 @@ Instrucciones de Instalacion:
 6. Ejecutar en terminal "php artisan key:generate"
 7. Ejecutar en la terminal "php artisan migrate:fresh"
 8. Ejecutar en la terminal "php artisan db:seed"
-9. Escribir en la terminal de texto "php artisan serve" sin las comillas
+9. Escribir en la terminal de texto "php artisan serve" sin las comillas. Alternativamente poner la carpeta en la carpeta Root de Laragon, y abrir Laragon.
 10. Asegurarse que la API quede montada en la direccion "http://backend.test" sin las comillas
