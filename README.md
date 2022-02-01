@@ -1,6 +1,6 @@
 Instrucciones de Instalacion:
 
-1. Este backd fue desarrollado usando laragon, por lo que para su correcto funcionamiento debe estar en la carpeta root de esta aplicación. se asume que todos los comandos se ejecutan desde esta carpeta.
+1. Este backend fue desarrollado usando Laragon, por lo que para su correcto funcionamiento debe estar en la carpeta root de esta aplicación. Se asume que todos los comandos se ejecutan desde esta carpeta.
 2. Desde una terminal git ejecutar el comando "git clone https://github.com/Granhelios/backend.git"
 3. Crear en el controlador de bases de datos una Base de datos llamada "postulacion" sin comillas
 4. Realizar en la carpeta backend ejecutar el comando en terminal "composer install" sin las comillas. En caso de no funcionar ejecutar el comando "composer update"
