@@ -5,9 +5,9 @@ Instrucciones de Instalacion:
 3. Crear en el controlador de bases de datos una Base de datos llamada "postulacion" sin comillas
 4. Realizar en la carpeta backend ejecutar el comando en terminal "composer install" sin las comillas. En caso de no funcionar ejecutar el comando "composer update"
 5. Copiar el archivo ".env.example" y cambiar el nombre a ".env"
-6. En el archivo ".env" cambiar en la lines "DB_DATABASE=backend" a "DB_DATABASE=postulacion"
-7. Ejecutar en terminal "php artisan key:generate"
-8. Ejecutar en la terminal "php artisan migrate:fresh"
-9. Ejecutar en la terminal "php artisan db:seed"
-10. Abrir laragon e iniciar sus servicios.
-11. Asegurarse que la API quede montada en la direccion "http://backend.test" sin las comillas
+6.  Abrir laragon e iniciar sus servicios.
+7.  En el archivo ".env" cambiar en la lines "DB_DATABASE=backend" a "DB_DATABASE=postulacion"
+8. Ejecutar en terminal "php artisan key:generate"
+9. Ejecutar en la terminal "php artisan migrate:fresh"
+10. Ejecutar en la terminal "php artisan db:seed"
+11.Asegurarse que la API quede montada en la direccion "http://backend.test" sin las comillas
